@@ -11,19 +11,26 @@
     <header>
         <!-- Titulo e explicação do Jogo-->
         <h1>Jogo da advinhação</h1>
-        <p>No jogo a seguir, você terá 15 chances para acertar um unico numero entre 0 a 100, haverá um indicador dizendo a cada chance se o numero de palpite, é maior ou menor que o numero secreto, o jogo acaba com o numero de chutes acabar ou acertar o numero secreto</p>
+        <p>No jogo a seguir, você terá 15 chances para acertar um unico numero entre 0 a 100, haverá um indicador dizendo a cada chance se o numero de palpite, é maior ou menor que o numero secreto, o jogo acaba com o numero de chutes acabar ou acertar o numero secreto.</p>
         <p>Boa Sorte</p>
     </header>
     <main>
         <!-- Entrada de palpites-->
         <p>Insira seu palpite numerico abaixo:</p>
         <label for="palpite">Palpite:</label>
-        <input type="number" id="palpite" placeholder="Digite algum numero de 0 a 100"> 
-        <button onclick="chutar()" >Chutar!</button>
+        <input type="number" id="palpite" placeholder="Número de 0 a 100"> 
+        <div>
+            <button onclick="chutar()" >Chutar!</button>
+        </div>    
         <!-- Indicadores -->
         <p id="dica"></p>
         <p id="chances"></p>
     </main>
-    
+    <footer>
+        <p>&copy; 2025 Dario Jonas - Todos os direitos reservados.</p>
+        <p>Entre em contato</p>
+        <a href="https://www.linkedin.com/in/dario-jonas-azevedo-silva-039005202/">LinkedIn</a>
+        <a href="https://github.com/DJonas342">Github</a>
+    </footer>
 </body>
 </html>
